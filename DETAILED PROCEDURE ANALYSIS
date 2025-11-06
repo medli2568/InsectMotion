@@ -1,5 +1,5 @@
 DETAILED PROCEDURE ANALYSIS
-The protocol is divided into two parts, as the TickMotion offers 2 different analyses: (A) Graphical analysis (GA), and (B) Pixel activity analysis (PAA). One video can be analyzed with both, GA and PAA, as they are together complementary and can create more detailed final results. In both protocols it is recommended to follow the steps in their designated order for the optimal results.
+The protocol is divided into two parts, as the InsectMotion offers 2 different analyses: (A) Graphical analysis (GA), and (B) Pixel activity analysis (PAA). One video can be analyzed with both, GA and PAA, as they are together complementary and can create more detailed final results. In both protocols it is recommended to follow the steps in their designated order for the optimal results.
 
 Graphical analysis (GA)
 The GA begins by clicking on the button: “Graphical Analysis”. The final outcome of the GA includes a graph showing the amplitude of contractions over time (frames) in the selected ROIs, text files containing data of each ROI featured in the graph, and PNG images representing each analyzed segments of the video file. 
@@ -8,7 +8,7 @@ The GA begins by clicking on the button: “Graphical Analysis”. The final out
 In the first step, you have to type the number of ROIs, between 1 and 10 (the maximum of 10 is mostly due to maintain the whole analysis process smooth). Each ROI will undergo analysis separately. More than 10 ROIs cannot be analyzed at the same time. 
 
 2. Select Video and ROIs
-In this step navigate TickMotion to the folder and select (double-click) a video file. TickMotion supports following file types: .mp4, .avi, and .mov. Continue in this step by selecting (left-click) the ROIs. The application will automatically stop the selecting process and the video file will be closed once the number of selected ROI corresponds the number established in the previous step. 
+In this step navigate InsectMotion to the folder and select (double-click) a video file. InsectMotion supports following file types: .mp4, .avi, and .mov. Continue in this step by selecting (left-click) the ROIs. The application will automatically stop the selecting process and the video file will be closed once the number of selected ROI corresponds the number established in the previous step. 
 Please, DO NOT close the video file during selection process. If you intend to change selected ROIs, let the program close it automatically (explained above) and repeat this step directly in the application. The graph shows results from any movement captured on the video. Try to select all ROIs from parts of the video, where movements are clear, muscle contractions are repetitive and/or the background noise is the lowest.
 
 3. Frame Parameters (dimensions)
@@ -29,7 +29,7 @@ The output folder can be easily find by clicking on the button "Show Output Fold
 This allows the user to return on the main menu.
 
 Pixel Activity Analysis (PAA)
-The PAA starts by clicking on the button: “Pixel Activity Analysis”. As a result, TickMotion provides a PNG image of active and inactive pixels from the video. It calculates the activity of each pixel separately, when it met the preset settings, active pixels will be shown as white, otherwise as black. The TickMotion repository on GitHub also includes the second version of the script, named “TickMotion v_2”, where the PAA is modified only in terms of visualizing the results (not the method). It shows active pixels as red, while the background is derived from the first frame of the video file. This approach was additionally designed to help in analyzing movements on a bigger scale.
+The PAA starts by clicking on the button: “Pixel Activity Analysis”. As a result, InsectMotion provides a PNG image of active and inactive pixels from the video. It calculates the activity of each pixel separately, when it met the preset settings, active pixels will be shown as white, otherwise as black. The InsectMotion repository on GitHub also includes the second version of the script, named “InsectMotion v_2”, where the PAA is modified only in terms of visualizing the results (not the method). It shows active pixels as red, while the background is derived from the first frame of the video file. This approach was additionally designed to help in analyzing movements on a bigger scale.
 
 1. Choose Video
 The first step in the PAA is similar to the GA, navigating to the folder and selecting a video file (again, multiple video file types are supported). Selecting of ROIs is not needed in this step, as the PNG will be generated for the whole video automatically.
