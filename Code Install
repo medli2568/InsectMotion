@@ -1,4 +1,4 @@
-Both versions of the script, “InsectMotion” and “InsectMotion v_2”, can be copied into Integrated Development Environment (IDE), e.g., PyCharm and run directly as a Python code.
+Both versions of the script, “InsectMotion” and “InsectMotion v_2”, can be copied into Integrated Development Environment (IDE), e.g., PyCharm or JupyterLab (via Anaconda Navigator) and run directly as a Python code.
 If you prefer to use the script as a standalone tool/application, you’ll need to follow the installation steps outlined below:
 In the command prompt navigate to the folder where your python file is located,
 type first command: pip install pyinstaller and process. 
