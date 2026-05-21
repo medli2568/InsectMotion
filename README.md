@@ -7,3 +7,10 @@ This app offers 2 analyses:
 Both analyses are customizable, allowing users to optimize the settings to best fit the requirements of their experiment.
 
 For any troubleshooting or help in designing the experiments, please contact: matej.medla@savba.sk
+
+If you use InsectMotion in your research, please cite our article:
+
+Medla M., Klöcklerová V., Buchová E., Čižmár D., Roller L., Žitňan D. (2026). InsectMotion – A Python-based tool for quantification of neuropeptide-induced organ contractions in arthropods. Journal of Insect Physiology.
+https://doi.org/10.1016/j.jinsphys.2026.104998
+
+Proper citation ensures recognition of the development and validation work behind the tool.
